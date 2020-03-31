@@ -4,7 +4,8 @@ const FIELDS = [
   "storageResourceId",
   "loginUserName",
   "fileSystemRootLocation",
-  "resourceSpecificCredentialStoreToken"
+  "resourceSpecificCredentialStoreToken",
+  "managedFileTransferEnabled"
 ];
 
 export default class StoragePreference extends BaseModel {

@@ -89,7 +89,7 @@ export default {
     'human-date': components.HumanDate,
     "delete-link": components.DeleteLink,
     "list-layout": layouts.ListLayout,
-    EmailEditor,
+    SendEmailEditor,
   },
   created() {
     

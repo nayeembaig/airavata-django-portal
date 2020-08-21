@@ -14,6 +14,7 @@ import ComputeResourcePolicy from "./models/ComputeResourcePolicy";
 import ComputeResourceReservation from "./models/ComputeResourceReservation";
 import DataProduct from "./models/DataProduct";
 import DataType from "./models/DataType";
+import Email from "./models/Email";
 import Experiment from "./models/Experiment";
 import ExperimentSearchFields from "./models/ExperimentSearchFields";
 import ExperimentState from "./models/ExperimentState";
@@ -72,6 +73,7 @@ const models = {
   ComputeResourceReservation,
   DataProduct,
   DataType,
+  Email,
   Experiment,
   ExperimentSearchFields,
   ExperimentState,
@@ -107,6 +109,7 @@ const services = {
   ComputeResourceService: ServiceFactory.service("ComputeResources"),
   CredentialSummaryService: ServiceFactory.service("CredentialSummaries"),
   DataProductService: ServiceFactory.service("DataProducts"),
+  EmailService: ServiceFactory.service("SendEmails"),
   ExperimentSearchService: ServiceFactory.service("ExperimentSearch"),
   ExperimentService: ServiceFactory.service("Experiments"),
   ExperimentStatisticsService: ServiceFactory.service("ExperimentStatistics"),

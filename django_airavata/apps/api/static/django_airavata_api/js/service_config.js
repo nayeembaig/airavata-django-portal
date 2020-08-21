@@ -5,6 +5,7 @@ import BatchQueue from "./models/BatchQueue";
 import ComputeResourceDescription from "./models/ComputeResourceDescription";
 import CredentialSummary from "./models/CredentialSummary";
 import DataProduct from "./models/DataProduct";
+import Email from "./models/Email";
 import Experiment from "./models/Experiment";
 import ExperimentSearchFields from "./models/ExperimentSearchFields";
 import ExperimentStatistics from "./models/ExperimentStatistics";
